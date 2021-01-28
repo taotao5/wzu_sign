@@ -56,7 +56,7 @@ def send_mail(title, message):
     ''' title:邮件标题'''
     ''' message:邮件正文'''
     my_sender = '******@qq.com'  # 发件人邮箱账号
-    my_pass = 'asdasderwegrgr'  # 发件人邮箱授权码，第一步得到的
+    my_pass = 'asdasderwegrgr'  # 发件人qq邮箱授权码，获取方法自己百度
     my_user = '******@qq.com'  # 收件人邮箱账号，可以发送给自己
     ret = True
     try:
